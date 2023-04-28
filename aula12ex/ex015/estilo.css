@@ -11,7 +11,7 @@
 
 body {
     background: rgb(107, 107, 241);
-    font: normal 15pt Arial;
+    font: normal 1.5em Arial;
 }
 
 header {
@@ -23,20 +23,24 @@ section {
     background: white;
     border-radius: 10px;
     padding: 15px;
-    width: 600px;
+    width: 80vw;
+    max-width: 600px;
     margin: auto;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.350);
 }
 
 input[type="number"] {
-    width: 70px;
+    width: 15%;
+    margin: 10px auto 0;
+    font-size: 24px;
+    margin-top: -10px;
   }
   
 img {
-    width: 250px;
-    height: 250px;
-    padding-top: 20px;
-    align-items: center;
+    width: 50vw;
+    max-width: 250px;
+    height: auto;
+    padding-top: 5%;
     /* animation: gira 10s linear infinite; */
 }
 
