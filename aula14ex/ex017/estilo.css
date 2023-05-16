@@ -13,8 +13,10 @@ header {
 section {
     background: white;
     border-radius: 10px;
+    text-align: center;
     padding: 15px;
-    width: 500px;
+    width: 40%;
+    height: auto;
     margin: auto;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.350);
 }
