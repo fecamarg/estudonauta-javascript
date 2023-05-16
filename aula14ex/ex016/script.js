@@ -1,11 +1,12 @@
 function contar() {
-    let inicio = document.getElementById('txti')
+    let inicio = document.getElementById('txti') // Vai pegar o valor inserido no campo relacionado a esse id no html
     let fim = document.getElementById('txtf')
     let passo = document.getElementById('txtp')
     let res = document.getElementById('res')
 
     if (inicio.value.length == 0 || fim.value.length == 0 || passo.value.length == 0) {
-        window.alert('[ERRO] Faltam dados!')
+        // Se o valor inserido no campo inicio ou fim ou passo forem iguais a 0
+        window.alert(`[ALERTA] Dados incompatíveis para a contagem! \u{1F440}`) 
     } else {
         res.innerHTML = 'Contando... <br>'
         let i = Number(inicio.value)
