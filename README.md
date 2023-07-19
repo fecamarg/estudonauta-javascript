@@ -1,2 +1,2 @@
 # javascript
- Atividades do Curso de JavaScript do Estudonauta
+ Repositório de atividades realizadas no curso de JavaScript do Estudonauta
